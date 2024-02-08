@@ -7,3 +7,15 @@ html {
 body {
     background: #ff0054;
   }
+
+  .left heading {
+    text-align: left;
+  }
+
+  .Bio {
+    text-align: right;
+    white-space: normal;
+    width: 30%;
+    padding: 600px;
+  }
+  
