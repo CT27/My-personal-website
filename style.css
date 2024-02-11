@@ -4,6 +4,20 @@ html {
   margin: 50px;
   }
 
+ h2{
+  letter-spacing: 5px;
+ }
+
+ header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 50px;
+ }
+
+
+
+
   body {
     background: #ff0054;
    margin:auto;
@@ -12,9 +26,13 @@ html {
 .contact {
   display: flex; justify-content:
   justify-content: space-around;
-  align-items: center;
+  align-items: left;
 
   margin: 0 ato;
+}
+
+.contact a {
+  margin-right: 20px; /* Adjust the margin to space out the icons */
 }
 
 
@@ -23,8 +41,14 @@ html {
 
 }
 .Bio{
-  text-align: right;
+  text-align: center;
   width: 60%;
   margin: auto;
+
+}
+
+.img {
+  height: 200px;
+  width: 200px;
 
 }
