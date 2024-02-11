@@ -1,31 +1,30 @@
 html {
   font-family: sans-serif;
-  color:#00f5e9
+  color:#00f5e9;
+  margin: 50px;
   }
 
   body {
     background: #ff0054;
-    
-          margin: 0;
-          padding: 0;
-    
+   margin:auto;
     }
 
 .contact {
   display: flex; justify-content:
   justify-content: space-around;
   align-items: center;
-  width: 1px; /* Adjust the width as needed */
-  height: 1px; /* Adjust the height as needed */
+
   margin: 0 ato;
 }
 
-#linked-in{
+
+.candice {
+  text-align: left;
 
 }
-
-
-#git-hub{
+.Bio{
+  text-align: right;
+  width: 60%;
+  margin: auto;
 
 }
-#email{
