@@ -1,35 +1,31 @@
 html {
   font-family: sans-serif;
   color:#00f5e9
-
 }
-
 
 body {
     background: #ff0054;
   }
 
-  .candice{
+.candice {
   text-align: left;
-  font-size: large
-  
-  
+margin: auto;
 }
 
-  
+.Bio {
+  float: right;
+  padding-right: 30px;
+}
 
 
-  .Bio {
-    white-space: normal;
-    width: 40%;
-    padding: 150px;
-    text-align: left;
-    
-  }
-  
+ .candice-image { 
+ width: 100px;
+ height: 100px;
+ }
+
   .contact{
     position: absolute;
-    top: 0;
+    top: 00;
     right: 0;
     display: flex;
     flex-direction: row; /* plalces the order of the links */
@@ -39,6 +35,3 @@ body {
     margin-left: 50px; /* Add some spacing between links */
 }
 
-img{
-  
-}
