@@ -1,37 +1,31 @@
 html {
   font-family: sans-serif;
   color:#00f5e9
-}
+  }
 
-body {
+  body {
     background: #ff0054;
-  }
+    
+          margin: 0;
+          padding: 0;
+    
+    }
 
-.candice {
-  text-align: left;
-margin: auto;
+.contact {
+  display: flex; justify-content:
+  justify-content: space-around;
+  align-items: center;
+  width: 1px; /* Adjust the width as needed */
+  height: 1px; /* Adjust the height as needed */
+  margin: 0 ato;
 }
 
-.Bio {
-  float: right;
-  padding-right: 30px;
+#linked-in{
+
 }
 
 
- .candice-image { 
- width: 100px;
- height: 100px;
- }
+#git-hub{
 
-  .contact{
-    position: absolute;
-    top: 00;
-    right: 0;
-    display: flex;
-    flex-direction: row; /* plalces the order of the links */
-  }
-
-  .contact a {
-    margin-left: 50px; /* Add some spacing between links */
 }
-
+#email{
