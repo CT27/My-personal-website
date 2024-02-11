@@ -1,6 +1,7 @@
 html {
   font-family: sans-serif;
   color:#00f5e9
+
 }
 
 
@@ -8,23 +9,36 @@ body {
     background: #ff0054;
   }
 
-  .left heading {
-    text-align: left;
-  }
+  .candice{
+  text-align: left;
+  font-size: large
+  
+  
+}
+
+  
+
 
   .Bio {
-    text-align: right;
     white-space: normal;
-    width: 30%;
+    width: 40%;
     padding: 150px;
     text-align: left;
     
   }
   
-  .Job {
-    text-align: right;
-    white-space: normal;
-    width: 30%;
-    padding: 50px;
-   
+  .contact{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row; /* plalces the order of the links */
   }
+
+  .contact a {
+    margin-left: 50px; /* Add some spacing between links */
+}
+
+img{
+  
+}
