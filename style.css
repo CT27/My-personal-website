@@ -16,8 +16,6 @@ html {
  }
 
 
-
-
   body {
     background: #ff0054;
    margin:auto;
@@ -41,14 +39,19 @@ html {
 
 }
 .Bio{
-  text-align: center;
-  width: 60%;
-  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+  text-align: leftt;
+  width: 50%;
+  padding: 10px;
+  
 
 }
 
 .img {
-  height: 200px;
-  width: 200px;
+display: inline-block;
+vertical-align: :right;
+height: auto;
+width: 200px;
 
 }
