@@ -3,19 +3,12 @@ html {
   color:#00f5e9;
   }
 
-  .candice {
-    text-align: left;
-    padding: 20px;
-    background-color: grey;
+.candice {
+text-align: left;
+padding: 20px;
   }
 
-h2{
-  letter-spacing: 5px;
- }
 
-h3{
-  letter-spacing: 5px;
-}
 
  header{
   position: fixed;
@@ -27,11 +20,18 @@ h3{
 
 
  .container {
-  padding: 20px; /* Example padding */
-  margin-bottom: 20px; /* Example margin */
+  padding: 20px; /*  padding */
+  margin-bottom: 20px; /*  margin */
   background-color: grey;
-}
 
+}
+h2{
+  letter-spacing: 5px;
+ }
+
+h3{
+  letter-spacing: 5px;
+}
 
 
 body {
@@ -73,9 +73,9 @@ display: inline-block;
 vertical-align: text-top;
 height: auto;
 width: 150px;
-
-
 }
+
+
 .flex-grid {
   display: flex;
   flex-wrap: wrap;
@@ -91,6 +91,6 @@ width: 150px;
 
 footer{
   background-color: grey;
-  background-size: auto;
+  background-size: 50px;
   padding: 20px;
 }
