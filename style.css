@@ -3,20 +3,6 @@ html {
   color:#00f5e9;
   }
 
-.candice {
-text-align: left;
-padding: 20px;
-  }
-
-
-
- header{
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 20px;
-  background-color: grey;
- }
 
 
  .container {
@@ -44,9 +30,9 @@ padding: 0
  /* SOCAIL ICONS & LINKS */
 
 .contact {
-  display: flex; justify-content;
-  align-items: left;
-  margin: 0 auto;
+  display: flex; justify-content; /* Makes .contact a flex container & aligns children horizontally to the start*/
+  align-items: left; /* aligns children horizontally to the left */
+  margin: 0 auto;  /* centers the .contact element horizontally on the page */
 }
 
 .contact a {
@@ -54,11 +40,9 @@ padding: 0
 }
 
 .contact img {
-  width: 40px;
-  /* Adjust the width as needed */
-  height: 40px;
-  /* Adjust the height as needed */
-  float: right;
+  width: 60px;  /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  float: inline-end;
 }
 
 .bio{
@@ -73,6 +57,7 @@ display: inline-block;
 vertical-align: text-top;
 height: auto;
 width: 150px;
+border: 1px solid #ddd;
 }
 
 
@@ -93,4 +78,14 @@ footer{
   background-color: grey;
   background-size: 50px;
   padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
+
+/* Apply responsive styles */
+@media screen and (max-width: 768px) {
+  /* Example responsive styles */
+  .main-content {
+    padding: 10px;
+  }
