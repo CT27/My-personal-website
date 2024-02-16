@@ -2,11 +2,8 @@ html {
   font-family: sans-serif;
   color:white;
   border-color: #ef3065;
-  
   }
-
-
-
+  
  .container {
   padding: 20px; /*  padding */
   margin-bottom: 20px; /*  margin */
@@ -15,11 +12,31 @@ html {
 
 }
 h2{
-  letter-spacing: 5px;
+  letter-spacing: 3px;
  }
 
 h3{
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* Adjust spacing between navigation items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Adjust link color */
+}
+
+nav ul li a:hover {
+  color: #666; /* Adjust link color on hover */
 }
 
 
@@ -46,6 +63,7 @@ padding: 0
   width: 60px;  /* Adjust the width as needed */
   height: 60px; /* Adjust the height as needed */
   float: inline-end;
+  margin: auto;
 }
 
 .bio{
@@ -82,10 +100,8 @@ footer{
   background: color #43aa8b;
   background-size: 50px;
   padding: 20px;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-
- 
