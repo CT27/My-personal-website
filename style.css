@@ -1,6 +1,8 @@
 html {
   font-family: sans-serif;
-  color:#00f5e9;
+  color:white;
+  border-color: #ef3065;
+  
   }
 
 
@@ -8,7 +10,8 @@ html {
  .container {
   padding: 20px; /*  padding */
   margin-bottom: 20px; /*  margin */
-  background-color: grey;
+  background-color: #ff6f59;
+  
 
 }
 h2{
@@ -21,7 +24,7 @@ h3{
 
 
 body {
-background: #ff0054;
+background: #ff6f59;
 margin:0;
 padding: 0
  }
@@ -57,7 +60,7 @@ display: inline-block;
 vertical-align: text-top;
 height: auto;
 width: 150px;
-border: 1px solid #ddd;
+border: 5px solid #ef3065;
 }
 
 
@@ -67,15 +70,16 @@ border: 1px solid #ddd;
 }
 
 .grid-item {
-  flex: 0 0 calc(33.33% - 20px); /* Adjust the width of grid items */
-  margin: 10px;
-  padding: 10px;
+  flex: 0 0 calc(45% - 20px); /* Adjust the width of grid items */
+  margin: 10Px;
+  padding: 20px;
   background-color: #f2f2f2;
-  border: 1px solid #ccc;
+  border: 10px solid #ef3065;
+  color: #ef3065;
 }
 
 footer{
-  background-color: grey;
+  background: color #43aa8b;
   background-size: 50px;
   padding: 20px;
   position: relative;
@@ -83,9 +87,5 @@ footer{
   width: 100%;
 }
 
-/* Apply responsive styles */
-@media screen and (max-width: 768px) {
-  /* Example responsive styles */
-  .main-content {
-    padding: 10px;
-  }
+
+ 
