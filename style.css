@@ -72,26 +72,26 @@ nav ul li a:hover {
 
 /* services */
 .grid-item {
-  flex: 0 0 calc(45% - 20px); /* Adjust the width of grid items */
-  margin: 10Px;
-  padding: 20px;
+  flex: 0 0 calc(45% - 2%); /* Adjust the width of grid items */
+  margin: 1%;
+  padding: 2%;
   background: linear-gradient(to bottom left, #FF087E, #FFF665);
-  border: 10px solid #ef3065;
+  border: 1% solid #ef3065;
   color: white;
-  font-size: 20px;
+  font-size: 2vw;
   font-family: sans-serif;
 }
 
 footer{
-  background-size: 30px;
+  background-size: 3%;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
  .img{
-      height: 250px;
-      width: 250px;
+      height: 25%;
+      width: 25%;
       display: block;
       margin: 0 auto;
     }
@@ -99,8 +99,8 @@ footer{
 /* Projects */
     #projects-list{
       font-family: sans-serif;
-      font-size: 60px;
-      margin: 20px;
+      font-size: 6vw;
+      margin: 2%;
     }
 
    
