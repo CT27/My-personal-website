@@ -1,21 +1,21 @@
 html {
   font-family: sans-serif;
   color:white;
-  padding: 0%;
+  padding: 0%; /* removes padding from html */
+  max-width: 100%; /*100% sets the maximum width of content to 100% of its parent element. */
   background: linear-gradient(to bottom right, #FF087E, #FFF665);
   background: -webkit-linear-gradient(left top, #FF087E, #FFF665); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #FF087E, #FFF665); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #FF087E, #FFF665); /* For Firefox 3.6 to 15 */
-
   }
   
+ /* home */ 
 h1{
   font-size: 150px;
   text-align: center;
   position: relative;
   display: inline-block; /* Display heading inline */
   vertical-align: middle; /* Align vertically with logo */
-  
 }
 
 h2{
@@ -55,7 +55,6 @@ nav ul li a:hover {
 .contact img {
   width: 60px;  /* Adjust the width as needed */
   height: 60px; /* Adjust the height as needed */
-
 }
 
 .flex-grid {
@@ -63,39 +62,32 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 
+/* services */
 .grid-item {
   flex: 0 0 calc(45% - 20px); /* Adjust the width of grid items */
   margin: 10Px;
   padding: 20px;
-  background: linear-gradient(to bottom right, #FF087E, #FFF665);
+  background: linear-gradient(to bottom left, #FF087E, #FFF665);
   border: 10px solid #ef3065;
   color: white;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 footer{
-  background: color #43aa8b;
   background-size: 50px;
   padding: 20px;
-  position: fixed;
+  position: fixed
   bottom: 0;
   width: 100%;
 }
-
-#wrapper{
-	max-width: 1200px;
-    margin: 0 auto;
-    padding: 2em;
-    background-color: #FF087E;
-    background: -webkit-linear-gradient(left top, #FF087E, #FFF665); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #FF087E, #FFF665); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #FF087E, #FFF665); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #FF087E, #FFF665);}
-
-    .img{
+ .img{
       height: 250px;
       width: 250px;
+      display: block;
+      margin: 0 auto;
     }
-
+/* Projects */
     #projects-list{
       font-family: sans-serif;
       font-size: 60px;
@@ -104,3 +96,8 @@ footer{
    
     #projects-list li:hover {
       color:#FFF665; /* Adjust link color on hover */}
+
+
+      /* about */
+   
+      
