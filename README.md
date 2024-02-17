@@ -1,16 +1,13 @@
 # My Personal Website
 
-       <img class="-img" src="Images/Profile.jpeg" alt="Candice">
+This is my personal website.
 
-Programming fundamentals with Python, JavaScript, SQL, HTML & CSS, Git, Flask, React and mor</li>
-Object-Oriented Programming
-Working with APIs
-Database modeling and ORM
-MVC (Model-View-Controller) to build large-scale applications
-Application deployment
+it has 4 pages.
+index = home
+about = bio
+contact = a form that should open the users email, set up currently with a dummy demo account.
+projects = this is a placekeeper for future projects
+services = html this is a bit of blurb with flex grid containing skills
 
-            <!-- Image-->
-            <img class="img" src="Images/Profile.jpeg" alt="Candice">
-
- <img class="img candice-t" src="images/CandyT202 (1).jpg" alt="Candice">
-        </p>
+The site has a favicon, i can see in live server but not on git hub link.
+The social media links are sometimes not showing as expected.

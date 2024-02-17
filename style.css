@@ -13,7 +13,6 @@ h1{
   font-size: 150px;
   text-align: center;
   position: relative;
-  
 }
 
 h2{
@@ -51,8 +50,8 @@ nav ul li a:hover {
 }
 
 .contact img {
-  width: 60px;  /* Adjust the width as needed */
-  height: 60px; /* Adjust the height as needed */
+  width: 55px;  /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
 }
 
 .flex-grid {
@@ -73,9 +72,8 @@ nav ul li a:hover {
 }
 
 footer{
-  background-size: 50px;
-
-  position: fixed
+  background-size: 30px;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
