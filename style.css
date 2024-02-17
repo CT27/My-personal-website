@@ -16,11 +16,15 @@ h1{
 }
 
 h2{
-  letter-spacing: 1px;
+  letter-spacing: .5px;
+  text-align: justify;
+  margin: 20px;
  }
 
 h3{
-  letter-spacing: 1px;
+  letter-spacing: .5px;
+  text-align: justify;
+  margin: 20px;
 }
 
 nav ul {
@@ -97,6 +101,7 @@ footer{
     #projects-list{
       font-family: sans-serif;
       font-size: 60px;
+      margin: 20px;
     }
 
    
