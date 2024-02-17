@@ -55,13 +55,13 @@ nav ul li a:hover {
 .contact img {
   width: 3.125rem;  /* Adjust the width as needed */
   height: auto; /* Adjust the height as needed */
-  margin: 1.25rem}
+  margin: 0.1rem}
 
 
 .contact-1 img {
-  width: 3.125rem;  /* Adjust the width as needed */
+  width: 5rem;  /* Adjust the width as needed */
   height: auto; /* Adjust the height as needed */
-  margin: 1.25rem}
+  margin: 1rem}
 
 .flex-grid {
   display: flex;
