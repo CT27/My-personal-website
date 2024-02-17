@@ -104,7 +104,7 @@ footer {
   color: #FFF665;
 }
   
-/* Add this to your CSS file */
+/* hamburger menu mobile */
 .menu-toggle {
   display: none;
   cursor: pointer;
@@ -112,15 +112,15 @@ footer {
 
 .bar {
   width: 25px;
-  height: 3px;
-  background-color: #333;
+  height: 10px;
+  background-color: #FF087E;
   margin: 4px 0;
   transition: 0.4s;
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #f9f9f9;
+  background-color: linear-gradient(to bottom right, #FF087E, #FFF665);
 }
 
 .menu {
@@ -137,11 +137,11 @@ footer {
   display: block;
   padding: 10px;
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 
 .menu li a:hover {
-  background-color: #ddd;
+  background-color: #FF087E;
 }
 
 @media (max-width: 768px) {
