@@ -1,7 +1,7 @@
 html {
   font-family: sans-serif;
   color:white;
-  border-color: #ef3065;
+
   }
   
 h1{
@@ -10,11 +10,11 @@ h1{
 }
 
 h2{
-  letter-spacing: 3px;
+  letter-spacing: 1px;
  }
 
 h3{
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 nav ul {
@@ -30,18 +30,16 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333; /* Adjust link color */
+  color: white;; /* Adjust link color */
 }
 
 nav ul li a:hover {
-  color: #666; /* Adjust link color on hover */
+  color:#ef3065; /* Adjust link color on hover */
 }
 
 
 body {
 background: #ff6f59;
-margin:0;
-padding: 0
  }
 
 
@@ -69,7 +67,7 @@ padding: 0
   display: inline-block;
   vertical-align: top;
   text-align: left;
-  width: 50%;
+  width: 30%
 }
 
 .img {
@@ -112,4 +110,4 @@ footer{
     background: -webkit-linear-gradient(left top, #FF087E, #FFF665); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #FF087E, #FFF665); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, #FF087E, #FFF665); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #FF087E, #FFF665);
+    background: linear-gradient(to bottom right, #FF087E, #FFF665);}
