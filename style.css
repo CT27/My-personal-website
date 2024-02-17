@@ -1,7 +1,6 @@
 html {
   font-family: sans-serif;
   color:white;
-  padding: 750;
   background: linear-gradient(to bottom right, #FF087E, #FFF665);
   background: -webkit-linear-gradient(left top, #FF087E, #FFF665); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #FF087E, #FFF665); /* For Opera 11.1 to 12.0 */
