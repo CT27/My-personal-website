@@ -2,6 +2,7 @@ html {
   font-family: sans-serif;
   color:white;
   padding: 0%;
+  background: linear-gradient(to bottom right, #FF087E, #FFF665);;
 
 
   }
@@ -41,32 +42,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color:#ef3065; /* Adjust link color on hover */
+  color:#FFF665; /* Adjust link color on hover */
 }
 
-
-body {
-background: #ff6f59;
- }
-
-
  /* SOCAIL ICONS & LINKS */
-
-
  .header-container {
   position: relative;
 }
 
-.contact {
-  float: right; 
-  width: 50
-  px; /* adjust width as needed */
-}
-
 .contact img {
-  width: 50px;  /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
-  float: right;
+  width: 60px;  /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+
 }
 
 .flex-grid {
@@ -78,9 +65,9 @@ background: #ff6f59;
   flex: 0 0 calc(45% - 20px); /* Adjust the width of grid items */
   margin: 10Px;
   padding: 20px;
-  background-color: #f2f2f2;
+  background: linear-gradient(to bottom right, #FF087E, #FFF665);
   border: 10px solid #ef3065;
-  color: #ef3065;
+  color: white;
 }
 
 footer{
