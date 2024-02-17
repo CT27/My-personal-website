@@ -17,13 +17,13 @@ h1{
 h2{
   letter-spacing: .5px;
   text-align: justify;
-  margin: 20px;
+  margin: 2%;
  }
 
 h3{
   letter-spacing: .5px;
   text-align: justify;
-  margin: 20px;
+  margin: 2%git;
 }
 
 nav ul {
@@ -35,7 +35,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 20px; /* Adjust spacing between navigation items */
+  margin-right: 2%; /* Adjust spacing between navigation items */
 }
 
 nav ul li a {
@@ -61,8 +61,7 @@ nav ul li a:hover {
 .contact img {
   width: 50px;  /* Adjust the width as needed */
   height: 50px; /* Adjust the height as needed */
-  margin: 20px;
-
+  margin: 10px;
 }
 
 .contact-1 img {
