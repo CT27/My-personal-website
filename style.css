@@ -1,8 +1,7 @@
 html {
   font-family: sans-serif;
   color:white;
-  padding: 0%; /* removes padding from html */
- 
+  padding: 750;
   background: linear-gradient(to bottom right, #FF087E, #FFF665);
   background: -webkit-linear-gradient(left top, #FF087E, #FFF665); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #FF087E, #FFF665); /* For Opera 11.1 to 12.0 */
@@ -14,8 +13,7 @@ h1{
   font-size: 150px;
   text-align: center;
   position: relative;
-  display: inline-block; /* Display heading inline */
-  vertical-align: middle; /* Align vertically with logo */
+  
 }
 
 h2{
@@ -76,7 +74,7 @@ nav ul li a:hover {
 
 footer{
   background-size: 50px;
-  padding: 20px;
+
   position: fixed
   bottom: 0;
   width: 100%;
