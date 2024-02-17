@@ -5,8 +5,12 @@ html {
   }
   
 h1{
-  font-size: 200px;
+  font-size: 150px;
   text-align: center;
+  position: relative;
+  display: inline-block; /* Display heading inline */
+  vertical-align: middle; /* Align vertically with logo */
+  
 }
 
 h2{
@@ -18,9 +22,10 @@ h3{
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  list-style-type: none; /* removes default styling */
+  margin: 0; /* space around list and surroundng elements */
+  padding: 25px; /* space inside <li> elements */
+  font-size: 25px;
 }
 
 nav ul li {
@@ -45,38 +50,34 @@ background: #ff6f59;
 
  /* SOCAIL ICONS & LINKS */
 
-.contact {
-  display: flex; justify-content; /* Makes .contact a flex container & aligns children horizontally to the start*/
-  align-items: left; /* aligns children horizontally to the left */
-  margin: 0 auto;  /* centers the .contact element horizontally on the page */
+
+ .header-container {
+  position: relative;
 }
 
-.contact a {
-  margin-right: 25px; /* Adjust the margin to space out the icons */
+.contact {
+  float: right; 
+  width: 50
+  px; /* adjust width as needed */
 }
+
+
+
+
+
+
+  
+
 
 .contact img {
-  width: 60px;  /* Adjust the width as needed */
-  height: 60px; /* Adjust the height as needed */
-  float: inline-end;
-  margin: auto;
+  width: 50px;  /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  float: right;
 }
 
 
-.bio{
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  width: 30%
-}
 
-.img {
-display: inline-block;
-vertical-align: text-top;
-height: auto;
-width: 150px;
-border: 5px solid #ef3065;
-}
+
 
 
 .flex-grid {
