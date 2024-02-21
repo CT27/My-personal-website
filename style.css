@@ -73,15 +73,22 @@ nav ul li a:hover {
 #about .content-box {
   border: 50px solid #FFF665; /* Border style for the box */
   padding: 20px; /* Padding inside the box */
-  width: 30%
-   /* Adjust box width to fit content */
+  width: 5%
+  /* Adjust box width to fit content */
 }
 
 #about .content-box .img {
-  width: 100px; /* Adjust image width as needed */
+  width: 20px; /* Adjust image width as needed */
   height: auto; /* Maintain aspect ratio */
   float: left; /* Float the image to the left */
   margin-right: 20px; /* Adjust as needed to create spacing between image and text */
+}
+
+.img {
+  height: 15.625rem; /* 250px converted to rem */
+  width: 15.625rem; /* 250px converted to rem */
+  display: block;
+  margin: 0 auto;
 }
 
 #about .content-box .text-box {
@@ -138,12 +145,6 @@ footer {
   width: 100%;
 }
 
-.img {
-  height: 15.625rem; /* 250px converted to rem */
-  width: 15.625rem; /* 250px converted to rem */
-  display: block;
-  margin: 0 auto;
-}
 
 /* Projects */
 #projects-list {
