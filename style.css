@@ -5,6 +5,8 @@ html {
   background: -webkit-linear-gradient(left top, #FF087E, #FFF665); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #FF087E, #FFF665); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #FF087E, #FFF665); /* For Firefox 3.6 to 15 */
+
+ 
   }
   
  /* home */ 
@@ -32,7 +34,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 0.5rem; /* Adjust spacing between navigation items */
+  margin-right: 0.25rem; /* Adjust spacing between navigation items */
 }
 
 nav ul li a {
@@ -66,26 +68,15 @@ nav ul li a:hover {
 }
 /* about */
 
-#about {
-  text-align: left; /* Align section content to the left */
-}
 
-#about .content-box {
-  border: 800px solid #FFF665; /* Border style for the box */
-  padding: 20px; /* Padding inside the box */
-  width: 5%
-  /* Adjust box width to fit content */
-}
 
 
 .img {
-  height: 10rem; /* 250px converted to rem */
-  width: auto /* 250px converted to rem */
+  height: 10rem; 
+  width: auto 
+
 }
 
-#about .content-box .text-box {
-  overflow: hidden; /* Clear the float */
-}
 
 
 
@@ -132,7 +123,7 @@ nav ul li a:hover {
 
 footer {
   background-size: 0.9375rem; /* Adjust background size as needed */
-  position: fixed;
+  position: relative
   bottom: 0;
   width: 100%;
 }
@@ -149,56 +140,3 @@ footer {
   color: #FFF665;
 }
   
-/* hamburger menu mobile */
-.menu-toggle {
-  display: none;
-  cursor: pointer;
-}
-
-.bar {
-  width: 25px;
-  height: 10px;
-  background-color:#FFF665;
-  margin: 4px 0;
-  transition: 0.4s;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: linear-gradient(to bottom right, #FF087E, #FFF665);
-}
-
-.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  display: inline-block;
-}
-
-.menu li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-}
-
-.menu li a:hover {
-  background-color: #FF087E;
-}
-
-@media (max-width: 768px) {
-  .menu-toggle {
-      display: block;
-  }
-
-  .menu {
-      display: none;
-  }
-
-  .menu.active {
-      display: block;
-  }
-}
