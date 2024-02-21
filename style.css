@@ -17,7 +17,7 @@ html {
 }
 
 
-h2, h3{
+h2, h3,p {
   letter-spacing: 0.03125rem;
   text-align: justify;
   margin: 0.5rem;
@@ -49,12 +49,6 @@ nav ul li a:hover {
   position: relative;
 }
 
-.contact {
-  position: absolute;
-  top: 0;
-  right: 0
-}
-
 .contact img {
   width: 3.125rem;  /* Adjust the width as needed */
   height: auto; /* Adjust the height as needed */
@@ -70,8 +64,63 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
 }
+/* about */
+
+#about {
+  text-align: left; /* Align section content to the left */
+}
+
+#about .content-box {
+  border: 50px solid #FFF665; /* Border style for the box */
+  padding: 20px; /* Padding inside the box */
+  width: 30%
+   /* Adjust box width to fit content */
+}
+
+#about .content-box .img {
+  width: 100px; /* Adjust image width as needed */
+  height: auto; /* Maintain aspect ratio */
+  float: left; /* Float the image to the left */
+  margin-right: 20px; /* Adjust as needed to create spacing between image and text */
+}
+
+#about .content-box .text-box {
+  overflow: hidden; /* Clear the float */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* services */
+
 .grid-item {
   flex: 0 0 calc(45% - 1.25rem); /* Adjust the width of grid items */
   margin: 0.625rem; /* 10px converted to rem */
