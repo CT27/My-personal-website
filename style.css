@@ -1,14 +1,28 @@
-html {
-  font-family: sans-serif;
+
+  
+body{ font-family: sans-serif;
   color:white;
   background: linear-gradient(to bottom right, #FF087E, #FFF665);
   background: -webkit-linear-gradient(left top, #FF087E, #FFF665); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #FF087E, #FFF665); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #FF087E, #FFF665); /* For Firefox 3.6 to 15 */
+  margin: 0px;
+}
 
- 
-  }
+
+
+
+
+.chevron{
+  background-image: url('Images/Chevron.png');
+  background-color: black;
+  background-position-x: center;
+  color: #FF087E;
   
+ 
+}
+
+
  /* home */ 
  h1 {
   font-size: 7rem; /* Adjust the font size as needed */
@@ -116,7 +130,7 @@ nav ul li a:hover {
   margin: 0.625rem; /* 10px converted to rem */
   padding: 1.25rem; /* 20px converted to rem */
   background: linear-gradient(to bottom left, #FF087E, #FFF665);
-  border: 0.625rem solid #ef3065; /* 10px converted to rem */
+  border: background-image: url('Images/Chevron.png');
   color: white;
   font-size: 1.25rem; /* 20px converted to rem */
 }
@@ -140,3 +154,8 @@ footer {
   color: #FFF665;
 }
   
+@media screen and (min-width: 50em) 
+   .textarea {
+    width: calc(50% - 16px);
+    margin-right: 32px;
+  }
