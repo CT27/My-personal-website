@@ -8,17 +8,19 @@ html {
   }
   
  /* home */ 
-h1{
-  font-size: 9.375rem;
+ h1 {
+  font-size: 9.375rem; /* Adjust the font size as needed */
   text-align: center;
-  position: relative;
-  width: 100%;
+  max-width: 100%; /* Prevent the width from exceeding the page width */
+  overflow: hidden; /* Hide any content that overflows the container */
+  white-space: wrap; /* Prevent line breaks within the heading */
 }
+
 
 h2, h3{
   letter-spacing: 0.03125rem;
   text-align: justify;
-  margin: 1.25rem;
+  margin: 0.5rem;
  }
 
 nav ul {
@@ -30,7 +32,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 1.25rem; /* Adjust spacing between navigation items */
+  margin-right: 0.5rem; /* Adjust spacing between navigation items */
 }
 
 nav ul li a {
@@ -97,7 +99,7 @@ footer {
 /* Projects */
 #projects-list {
   font-family: sans-serif;
-  font-size: 3.75rem; /* 60px converted to rem */
+  font-size: 1.7rem; /* 60px converted to rem */
   margin: 1.25rem; /* Adjust margin as needed */
 }
 
