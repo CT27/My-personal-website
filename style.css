@@ -6,11 +6,8 @@ body{ font-family: sans-serif;
   background: -webkit-linear-gradient(left top, #FF087E, #FFF665); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #FF087E, #FFF665); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #FF087E, #FFF665); /* For Firefox 3.6 to 15 */
-  margin: 0px;
+  margin: 20px;
 }
-
-
-
 
 
 .chevron{
@@ -18,8 +15,6 @@ body{ font-family: sans-serif;
   background-color: black;
   background-position-x: center;
   color: #FF087E;
-  
- 
 }
 
 
@@ -82,6 +77,16 @@ nav ul li a:hover {
 }
 /* about */
 
+#about{
+  
+  flex: 0 0 calc(45% - 1.25rem); /* Adjust the width of grid items */
+  margin: 0.625rem; /* 10px converted to rem */
+  padding: 1.25rem; /* 20px converted to rem */
+  background: linear-gradient(to bottom left, #FF087E, #FFF665);
+  border-image:  url('Images/Chevron.png');
+  color: white;
+  font-size: 1.25rem; /* 20px converted to rem */
+}
 
 
 
@@ -159,3 +164,4 @@ footer {
     width: calc(50% - 16px);
     margin-right: 32px;
   }
+ 
